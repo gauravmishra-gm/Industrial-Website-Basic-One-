@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Tirupati Industries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+ </head> 
+ <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='fa fa-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class='fa fa-bars' onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+<!----------------about us  content------------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>One of The Leading Hvac Industrie</h1>
+            <p>Our company, tries, commenced its business in 2010 as one of the
+                leading manufacturers and suppliers of a gamut of Industrial Coils. Our wide and
+                exclusive range of Industrial Coils includes Cooling Coils, Condensing Coils, 
+                Vaporizing Coils, Heat Exchangers and Evapor
+                appreciated fo ormance. We are engaged
+                in providing our valuable clients with these finest quality products.</p>
+                <a href="index.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/aboutpage.jpg">
+        </div>
+    </div>
+</section>
+
+<!----------------footer --------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>heyyy </p>
+        <div class="icons">
+        <a href="https://www.facebook.com/" target="blank"> 
+            <i class='fa fa-facebook'></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+        <i class='fa fa-instagram'></i>
+        </a>
+        <a href="https://x.com/?lang=en-in" target="_blank">
+        <i class='fa fa-twitter'></i>
+        </a>
+        <a href="https://in.linkedin.com/" target="_blank">
+        <i class='fa fa-linkedin'></i>
+        </a>
+        <p>Made with <i class='fa fa-heart'></i> by GM </p>
+    </div>
+</section>
+
+<!----------------- Javascript code for menu close and show (toggle menu)----------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+ </body>  
+</html>
